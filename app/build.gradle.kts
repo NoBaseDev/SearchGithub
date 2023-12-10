@@ -52,6 +52,12 @@ android {
 
 dependencies {
 
+    implementation(projects.core.common)
+    implementation(projects.core.model)
+    implementation(projects.feature.search)
+    implementation(projects.feature.user)
+    implementation(projects.feature.repo)
+
     implementation(libs.core.ktx)
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.activity.compose)

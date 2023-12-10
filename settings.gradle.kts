@@ -14,5 +14,16 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "SearchGithub"
+
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
- 
+include(":feature:user")
+include(":feature:repo")
+include(":feature:search")
+include(":core:domain")
+include(":core:database")
+include(":core:network")
+include(":core:data")
+include(":core:model")
+include(":core:common")
+include(":core:ui")
